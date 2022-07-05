@@ -8,11 +8,17 @@ h1 {
     ;
 }
 
+h2 {
+    font-size: 35px;
+    ;
+}
+
+
 .green-color {
     color: steelblue;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -40,14 +46,36 @@ section {
     background-repeat: no-repeat;
 }
 
-p {
-    text-align: justify;
-    margin-bottom: 30px;
-    font-size: 20px;
-}
-
 .dream-big {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px lightslategrey;
+
+}
+
+#full-stack-developer {
+    border-left: 7px solid salmon;
+}
+
+#baby-web-developer {
+    border-left: 7px solid mediumaquamarine
+}
+
+footer p {
+    text-align: center;
 }
