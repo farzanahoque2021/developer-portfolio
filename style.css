@@ -1,5 +1,6 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -8,7 +9,7 @@ h1 {
 }
 
 .green-color {
-    color: rgb(211, 42, 112);
+    color: steelblue;
 }
 
 section {
@@ -26,9 +27,14 @@ section {
 
 .link-button {
     text-decoration: none;
-    background-image: linear-gradient(cornflowerblue, darkblue);
+    background-image: linear-gradient(lime, seagreen);
     padding: 10px 40px;
     color: white;
     font-weight: 700;
     border-radius: 5px;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
